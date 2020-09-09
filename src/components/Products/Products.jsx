@@ -10,7 +10,7 @@ const Products = () => {
   return (
     <main className={classes.content}>
       <div className={classes.toolbar} />
-      <Grid container spacing={4}>
+      <Grid container justify="center" spacing={4}>
         {[0, 1, 2, 3, 4, 5].map((value) => (
           <Grid key={value} item xs={12} sm={6} md={4} lg={3}>
             <Product />
