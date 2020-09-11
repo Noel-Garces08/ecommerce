@@ -67,7 +67,7 @@ const PrimarySearchAppBar = ({ handleDrawerToggle }) => {
             <FavoriteIcon />
           </Badge>
         </IconButton>
-        <p>Messages</p>
+        <p>Wishlist</p>
       </MenuItem>
       <MenuItem>
         <IconButton aria-label="show 11 new notifications" color="inherit">
@@ -75,7 +75,7 @@ const PrimarySearchAppBar = ({ handleDrawerToggle }) => {
             <ShoppingCartIcon />
           </Badge>
         </IconButton>
-        <p>Notifications</p>
+        <p>Cart</p>
       </MenuItem>
       <MenuItem onClick={handleProfileMenuOpen}>
         <IconButton
