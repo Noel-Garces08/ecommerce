@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, CardMedia, CardContent, CardActions, Typography, IconButton } from '@material-ui/core';
 import AddCircleIcon from '@material-ui/icons/AddCircle';
 import FavoriteIcon from '@material-ui/icons/Favorite';
-import ShareIcon from '@material-ui/icons/Share';
+import Rating from '@material-ui/lab/Rating';
 
 import useStyles from './styles';
 
@@ -32,9 +32,7 @@ const Product = () => {
         <IconButton aria-label="add to favorites">
           <FavoriteIcon />
         </IconButton>
-        <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton>
+        <Rating name="read-only" value={3} readOnly size="large" style={{ marginLeft: 'auto' }} />
       </CardActions>
     </Card>
   );
