@@ -17,7 +17,7 @@ const Sidebar = ({ mobileOpen, handleDrawerToggle }) => {
         <Typography variant="h6" noWrap>Categories</Typography>
       </ListItem>
       <List>
-        {['All', 'Accessories', 'Chair', 'Decoration', 'Furniture', 'Table'].map((text, index) => (
+        {['All', "Men's Tees", "Woman's Tees", 'Long Sleeve Tees', 'Hoodies', 'Stickers', 'Socks'].map((text, index) => (
           <ListItem button key={text}>
             <ListItemIcon>{index % 2 === 0 ? <MoveToInbox /> : <Mail />}</ListItemIcon>
             <ListItemText primary={text} />
